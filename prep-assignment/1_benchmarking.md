@@ -12,7 +12,7 @@ Review the following code (scroll down for the assignment requirements, which ar
     other firms in the industry */
 
 /* this piece of code makes a connection of your SAS instance with WRDS remote server */
-%let wrds = wrds-cloud.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
+%let wrds = wrds.wharton.upenn.edu 4016;options comamid = TCP remote=WRDS;
 signon username=_prompt_;
 
 
